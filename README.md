@@ -26,22 +26,9 @@ PORT=5001
 
 7. From dashboard Create New Project > Create New Cluster > Click Connect and Make sure you add current ip address to be able to connect to this database.
 
-![Setup MongoDB](/.github/images/step_mongodb1.jpg "Setup MongoDB")
-
-**NOTE:** Make Sure you type same email in `VITE_APP_EMAILJS_RECIEVER` in `.env`
-
-8. Once, MONGODB is configured, copy your **MONGODB URL** to `MONGODB_URL`.
-
-![Copy MONGODB_URL](/.github/images/step_mongodb2.png "Copy MONGODB_URL")
-
-9. Now, open `server/index.js` and uncomment imports and other lines to **insert data** into MongoDB.
-   **NOTE:** Make sure to comment them after running first time to avoid duplicate values in database.
-
-10. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `npm run dev` for server and `npm start` or `npm start` for client.
-
 **NOTE:** Make sure you don't share these keys publicaly.
 
-## :fire: Features
+## :file: Features
 
 - Supports both **Dark** and **Light** Theme.
 - **Mobile Responsive** Layout.
@@ -63,8 +50,6 @@ PORT=5001
   3. Sales
   4. Management
 - **15+ Components** which are easy-to-use and fully customizable.
-
-**NOTE:** While running deployed version, it might take some time to load first time on render. [Learn more](https://render.com/docs/free#other-limitations "Learn More")
 
 ## :camera: Screenshots:
 
