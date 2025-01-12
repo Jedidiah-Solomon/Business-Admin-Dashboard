@@ -1,20 +1,6 @@
-# Modern Full Stack Admin Dashboard using MERN
+# Modern Full Stack Admin Business Dashboard using MERN
 
 ![Modern Full Stack Admin Dashboard using MERN](/.github/images/img_main.png "Modern Full Stack Admin Business Dashboard using MERN")
-
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://jedidiahsolomon.vercel.app "Ask Me Anything!")
-
-[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/mern-admin)](https://github.com/Technical-Shubham-tech/mern-admin/blob/main/LICENSE.md "GitHub license")
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Technical-Shubham-tech/mern-admin/commits/main "Maintenance")
-
-[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/mern-admin)](https://github.com/Technical-Shubham-tech/mern-admin/branches "GitHub branches")
-
-[![Github commits](https://badgen.net/github/commits/Technical-Shubham-tech/mern-admin/main)](https://github.com/Jedidiah-Solomon/Business-Admin-Dashboard/commits "Github commits")
-
-[![GitHub issues](https://img.shields.io/github/issues/Technical-Shubham-tech/mern-admin)](https://github.com/Jedidiah-Solomon/Business-Admin-Dashboard/issues "GitHub issues")
-
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/Technical-Shubham-tech/mern-admin)](https://github.com/Technical-Shubham-tech/mern-admin/pulls "GitHub pull requests")
 
 ## ⚠️ Before you start
 
@@ -34,7 +20,7 @@ MONGODB_URL="XXXXXXXXXXXXXXXXXXXXXXXXX"
 PORT=5001
 ```
 
-5. Open terminal and run `npm install` or `yarn install` in both **client** & **server**.
+5. Open terminal and run `npm install` or `npm install` in both **client** & **server**.
 
 6. Create new account in [MongoDB](https://mongodb.com/ "MongoDB").
 
@@ -51,7 +37,7 @@ PORT=5001
 9. Now, open `server/index.js` and uncomment imports and other lines to **insert data** into MongoDB.
    **NOTE:** Make sure to comment them after running first time to avoid duplicate values in database.
 
-10. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `yarn run dev` for server and `npm start` or `yarn start` for client.
+10. Now app is fully configured :+1: and you can start using this app using `npm run dev` or `npm run dev` for server and `npm start` or `npm start` for client.
 
 **NOTE:** Make sure you don't share these keys publicaly.
 
@@ -100,21 +86,11 @@ PORT=5001
 
 [![Stats for this App](/.github/images/stats.svg)](https://pagespeed.web.dev/ "Stats for this App")
 
-## :raised_hands: Contribute
-
-You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
-
-## Buy Me a Coffee 🍺
-
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
 ## :books: Available Scripts
 
 In the project directory, you can run:
 
-### `yarn run dev`
+### `npm run dev`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -122,12 +98,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn run build`
+### `npm run build`
 
 Builds the app for production to the `dist` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -137,7 +113,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `npm eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -146,33 +122,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## :page_with_curl: Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
