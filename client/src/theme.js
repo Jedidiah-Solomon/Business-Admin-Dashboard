@@ -1,4 +1,6 @@
 // color design tokens export
+
+//Shades" from 0 (lightest) to 1000 (darkest) for each color family (e.g., grey, primary, and secondary).
 export const tokensDark = {
   grey: {
     0: "#ffffff", // manually adjusted
@@ -57,6 +59,7 @@ function reverseTokens(tokensDark) {
   });
   return reversedTokens;
 }
+
 export const tokensLight = reverseTokens(tokensDark);
 
 // mui theme settings
